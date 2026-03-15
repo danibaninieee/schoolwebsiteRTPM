@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cool and Inspiring School</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:black;
+    color:white;
+}
+
+/* NAVBAR */
+.navbar{
+    display:flex;
+    align-items:center;
+    padding:15px 30px;
+    background:black;
+}
+
+/* LOGO */
+.logo{
+    height:50px;
+}
+
+/* HERO SECTION */
+.hero{
+    height:100vh;
+    background-image:url("principal.jpg"); /* background photo */
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+/* BIG PINK TITLE */
+.hero h1{
+    color:pink;
+    font-size:70px;
+    margin-bottom:20px;
+}
+
+/* BUTTON */
+.btn{
+    background:pink;
+    color:black;
+    padding:15px 30px;
+    font-size:20px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+    margin:10px;
+}
+
+.btn:hover{
+    background:#ff69b4;
+}
+
+/* VIDEO SECTION */
+.video-section{
+    text-align:center;
+    margin:60px 0;
+}
+
+/* MOTTO */
+.motto{
+    margin-top:15px;
+    font-style:italic;
+}
+
+/* INFO SECTION */
+.info{
+    padding:60px;
+    text-align:center;
+}
+
+/* IMAGE GALLERY */
+.gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:40px;
+}
+
+.gallery img{
+    width:250px;
+    margin:10px;
+    border-radius:10px;
+}
+
+/* AWARDS SECTION */
+.awards{
+    padding:60px;
+    text-align:center;
+}
+
+.awards h2{
+    color:pink;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.award-gallery{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:40px;
+}
+
+.award-gallery img{
+    width:200px;
+    margin:10px;
+    border-radius:10px;
+    transition: transform 0.3s;
+}
+
+.award-gallery img:hover{
+    transform: scale(1.05);
+}
+
+.awards ul{
+    list-style:none;
+    padding:0;
+    max-width:600px;
+    margin:0 auto;
+    text-align:left;
+}
+
+.awards li{
+    font-size:18px;
+    padding:10px 0;
+    border-bottom:1px solid #333;
+}
+
+.awards li:last-child{
+    border-bottom:none;
+}
+
+/* CONTACT SECTION */
+.contact{
+    background:#111;
+    padding:60px;
+    text-align:center;
+}
+
+.contact h2{
+    color:pink;
+    font-size:40px;
+    margin-bottom:30px;
+}
+
+.contact p{
+    font-size:18px;
+    line-height:1.8;
+}
+
+/* FOOTER / DEVELOPERS SECTION */
+.footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+    border-top:1px solid #333;
+}
+
+.footer h3{
+    color:pink;
+    margin-bottom:20px;
+}
+
+.footer p{
+    margin:5px 0;
+    font-size:16px;
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR WITH LOGO -->
+<div class="navbar">
+<img src="logo.png" class="logo">
+</div>
+
+<!-- HERO -->
+<div class="hero">
+<h1>Welcome to Ramon Teves Pastor Memorial Dumaguete Science High School!</h1>
+
+<a href="#info">
+<button class="btn">Learn More!</button>
+</a>
+<a href="#contact">
+<button class="btn">Contact Us!</button>
+</a>
+
+<p class="motto">"Scientia et Vita!"</p>
+</div>
+
+<!-- SCHOOL VIDEO -->
+<div class="video-section">
+<video width="700" controls>
+<source src="promotional-video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+</div>
+
+<!-- SCHOOL INFORMATION -->
+<div id="info" class="info">
+
+<h2>About Our School</h2>
+
+<p>
+RTPM-DSHS (Ramon Teves Pastor Memorial– Dumaguete Science High School) is a premier institution dedicated to providing quality education in science, technology, and the arts. Since its establishment, the school has been committed to nurturing young minds to become responsible, innovative, and community-oriented leaders. The school boasts a rigorous curriculum that challenges students to excel academically while also developing their critical thinking and problem-solving skills. With highly qualified teachers, state-of-the-art laboratories, and a well-equipped library, RTPM-DSHS ensures that students have access to the best resources to support their learning. Beyond academics, the school encourages participation in extracurricular activities, from science fairs and math competitions to sports and cultural programs, helping students discover their passions and build confidence.
+</p>
+
+<p>
+RTPM-DSHS has earned a reputation for excellence, consistently producing top-performing students in regional and national competitions. The school has received numerous awards for academic achievement, innovation, and community service, reflecting its commitment to holistic education. Central to the school's philosophy is the belief that education should not only focus on knowledge but also on character development. The values of integrity, diligence, teamwork, and respect are instilled in every student, preparing them to contribute positively to society. Graduates of RTPM-DSHS are well-prepared to pursue higher education and succeed in their chosen fields, demonstrating the school's enduring mission to cultivate future leaders who are both knowledgeable and socially responsible.
+</p>
+
+<p>
+Join the RTPM-DSHS community today and be part of an environment that fosters learning, growth, and excellence. Whether you are a prospective student, parent, or supporter, explore our programs, attend our events, and see why RTPM-DSHS continues to lead in education and innovation. Take the first step toward achieving your goals with us and experience a school where passion meets opportunity.
+</p>
+
+<!-- IMAGE GALLERY -->
+<div class="gallery">
+<img src="socorro.jpg" alt="Socorro">
+<img src="titanium.jpg" alt="Titanium">
+<img src="friends.jpg" alt="Friends">
+<img src="gym.jpg" alt="Gymnasium">
+</div>
+
+</div>
+
+<!-- AWARDS SECTION -->
+<div class="awards">
+<h2>Our Awards</h2>
+
+<!-- AWARD GALLERY -->
+<div class="award-gallery">
+<img src="2024.jpg" alt="2024 Award">
+<img src="chada.jpg" alt="Chada Award">
+<img src="2023fest.jpg" alt="2023 Festival">
+<img src="2023.jpg" alt="2023 Award">
+</div>
+
+<ul>
+    <li>🏆 Champion of the Sandurot Festival – 2024</li>
+    <li>🏅 Chada Awards – 2025</li>
+    <li>🎖 Champion of the Sandurot Festival (School Category) – 2023</li>
+    <li>🏆 Special Awards in the Sandurot Festival – 2023</li>
+</ul>
+
+</div>
+
+<!-- CONTACT US -->
+<div id="contact" class="contact">
+<h2>Contact Us</h2>
+
+<p>Email: rtpmdshs@deped.gov.ph</p>
+<p>Address:  Maria Asuncion Village, Daro, Dumaguete City, Negros Oriental</p>
+
+</div>
+
+<!-- DEVELOPERS / FOOTER SECTION -->
+<div class="footer">
+<h3>Developers</h3>
+<p>Kryz Danielle Agnes - Head Developer</p>
+<p>Hailie Devon Saludar - Assistant Developer</p>
+<p>Rannie June Ragas - Back-end Engineer</p>
+<p>Earl James Birao - Researcher</p>
+<p>Kristina Chloese Duran - Project Manager</p>
+<p>Elerain Halasan - Researcher 2</p>
+<p>&copy; 2026 RTPM-DSHS. All rights reserved.</p>
+</div>
+
+</body>
+</html>
